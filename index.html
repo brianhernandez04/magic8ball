@@ -10,12 +10,23 @@
 
     <link rel="stylesheet" href="./css/style.css">
 
-    <title>Hello, world!</title>
+    <title>Magic 8 Ball</title>
   </head>
-  <body>
-    <h1>Hello, world!</h1>
+  <body class=" bg-light"> 
+    <main >
+      <div class="container ">
+        <div class="container text-center pb-5" id="question">
+          <input class=" input-class mx-5 mx-md-0 mx-lg-0 p-3 p-md-0 p-lg-0" type="text" value="" placeholder="Ask Me Anything!">
+          <button class=" btn btn-dark btn-lg ">Ask</button>
+        </div>
+        <div class="container text-center " id="answers">
+          <img src="./img/magic8ball_start.png" alt="Start Image of the 8ball" class=" start-img" >
+        </div>
+      </div>
+    </main>
 
     <!-- Optional JavaScript; choose one of the two! -->
+    <script src="./js/main.js"></script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

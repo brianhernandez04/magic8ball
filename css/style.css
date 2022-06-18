@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.start-img {
+    width: 20rem;
+    height: 40vh;
+}
+.input-class {
+    height: 3rem;
+}
+main {
+    padding-top: 22vh;
+}
