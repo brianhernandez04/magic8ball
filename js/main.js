@@ -7,11 +7,6 @@ const replace = document.getElementById('question');
 const replacetwo = document.getElementById('answers');
 
 
-
-    
-
-
-
 const crtImg = () => {
 
     let image = document.createElement('img');
@@ -26,9 +21,10 @@ button.addEventListener('click', function() {
     
     replace.innerHTML = 
     `
-    <h1 style="text-align: center; padding-top: 20vh;">${inputval.value}</h1>
+    <h1 style="text-align: center; padding-top: 22vh;">${inputval.value}</h1>
     `
     ;
+
     crtImg();
 
     
